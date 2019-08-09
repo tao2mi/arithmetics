@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\heapsort2.js"
+            "program": "${workspaceFolder}\\radixsort2.js"
         }
     ]
 }
