@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\shellsort2.js"
+            "program": "${workspaceFolder}\\bucketsort2.js"
         }
     ]
 }
