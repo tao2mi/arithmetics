@@ -17,7 +17,7 @@ public class NextNodeInBinaryTree_8 {
 		a.right = c;
 		
 		b.left = d;
-		b.right = c;
+		b.right = e;
 		b.parent = a;
 		
 		c.left = f;
@@ -34,9 +34,9 @@ public class NextNodeInBinaryTree_8 {
 		
 		g.parent = c;
 		
-		h.parent = c;
+		h.parent = e;
 		
-		i.parent = c;
+		i.parent = e;
 		
 		
 		TreeNode next = findNext(i);
@@ -71,7 +71,7 @@ public class NextNodeInBinaryTree_8 {
 		return p;
 	}
 	
-	static class TreeNode// �ڵ�ṹ
+	static class TreeNode// �ڵ�ṹ
 	{
 		String value;
 		TreeNode left;
