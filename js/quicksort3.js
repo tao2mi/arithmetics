@@ -1,22 +1,28 @@
 function quickSort(array, left, right) {
     if (left < right) {
         let pivot = partition(array, left, right);
-        quickSort(array, 0, pivot);
-        quickSort(array, pivot, right);
+        quickSort(array, left, pivot-1);
+        quickSort(array, pivot+1, right);
     }
 }
 
 function partition(array, left, right) {
     let pivot = left;
-    let index = pivot + 1;
-    while (index < right) {
-        if (array[index] < array[pivot]) {
-            swap(array, pivot, index);
-            pivot = index;
+    let index = i = pivot + 1;
+
+    while (i <= right) {
+        if (array[i] < array[pivot]) {
+            swap(array, index, i);
+            index++;
         }
-        index++;
+        i++;
     }
-   return pivot;
+    swap(array, index-1, pivot);
+   return index-1;
+}
+
+function partition2(array, left, right) {
+    
 }
 
 function swap(array, a, b) {
@@ -26,6 +32,7 @@ function swap(array, a, b) {
 }
 
 var arr = [8, 9, 2, 1, 0, 10, 7, 6, 3, 4];
+// var arr = [8, 9, 2, 1, 0];
 console.log(arr);
 quickSort(arr, 0, 9);
 console.log(arr);
