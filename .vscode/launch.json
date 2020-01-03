@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\js\\mergesort3.js"
+            "program": "${workspaceFolder}\\js\\quicksort3.js"
         }
     ]
 }
