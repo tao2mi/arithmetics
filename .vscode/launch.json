@@ -12,10 +12,87 @@
             "projectName": "arithmetics_b7348946"
         },
         {
-            "type": "node",
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}\\js\\heapsort3.js"
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConstructBinaryTree_07<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.ConstructBinaryTree_07",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DuplicationInArrayNoEdit_03_02_<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.DuplicationInArrayNoEdit_03_02_",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fabonacci_10<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.Fabonacci_10",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindInPartiallySortedMatrix_04<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.FindInPartiallySortedMatrix_04",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NextNodeInBinaryTree_8<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.NextNodeInBinaryTree_8",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintListInReversedOrder_06<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.PrintListInReversedOrder_06",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QueueWithTwoStack_09<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "sword2offer.QueueWithTwoStack_09",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LevelTraverse<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "ybq.LevelTraverse",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MidTraverse<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "ybq.MidTraverse",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PostTraverse<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "ybq.PostTraverse",
+            "projectName": "arithmetics_1e24d746"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PreTraverse<arithmetics_1e24d746>",
+            "request": "launch",
+            "mainClass": "ybq.PreTraverse",
+            "projectName": "arithmetics_1e24d746"
         }
     ]
 }
