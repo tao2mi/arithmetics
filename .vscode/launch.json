@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "Launch Fabonacci_10",
+            "request": "launch",
+            "mainClass": "sword2offer.Fabonacci_10",
+            "projectName": "arithmetics_b7348946"
+        },
         {
             "type": "node",
             "request": "launch",

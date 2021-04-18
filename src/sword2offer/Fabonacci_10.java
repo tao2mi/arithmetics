@@ -13,6 +13,8 @@ public class Fabonacci_10 {
 		
 		/*  System.out.println(fibonacci2(100));
 		  watch.elapsed(TimeUnit.SECONDS);*/
+		  Long time = watch.elapsed(TimeUnit.SECONDS);
+		  System.out.println("time" + time);
 		 
 	}
 	
