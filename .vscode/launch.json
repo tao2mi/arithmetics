@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Queen8",
+            "request": "launch",
+            "mainClass": "Queen8",
+            "projectName": "arithmetics_1d7967f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quuen8",
+            "request": "launch",
+            "mainClass": "Quuen8",
+            "projectName": "arithmetics_1d7967f"
+        },
+        {
+            "type": "java",
             "name": "Launch Fabonacci_10",
             "request": "launch",
             "mainClass": "sword2offer.Fabonacci_10",

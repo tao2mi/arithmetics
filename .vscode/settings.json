@@ -2,5 +2,11 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "libs/guava-20.0.jar"
+    ],
+    "java.dependency.packagePresentation": "flat",
+    "java.project.sourcePaths": [
+        "src/ybq2",
+        "src/ybq",
+        "src/sword2offer"
     ]
 }
